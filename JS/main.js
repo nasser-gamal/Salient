@@ -95,10 +95,12 @@ window.addEventListener("scroll", () => {
       document.querySelector(".team .right").style.transform = "translateX(0)"
       document.querySelector(".team .right").style.opacity = "1"
   }
-  if (scrollY >= skills.offsetTop - 350) {
+
+  if (scrollY >= skills.offsetTop - 650) {
     progress.forEach((prog) => {
       prog.style.width = prog.dataset.width;
     });
+
     if (scrollY >= services.offsetTop - 450) {
       services.style.transform = "translateX(0)"
       services.style.opacity = "1"

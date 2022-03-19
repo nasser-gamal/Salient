@@ -7,6 +7,10 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+html {
+    scroll-behavior: smooth;
+}
+/* Start Components  */
 .btn:focus {
     box-shadow: none;
 }
@@ -48,7 +52,17 @@ body {
     opacity: 0;
     transition: var(--js-transition);
 }
+/* End Components  */
 /* Start Header  */
+.bage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: red;
+    z-index: 100000;
+}
 .scroll-top {
     position: fixed;
     right: 30px;
