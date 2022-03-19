@@ -361,11 +361,8 @@ nav ul li a {
 .gallery {
     padding-top: var(--padding);
 }
-.gallery .row {
-    overflow: hidden;
-}
-.gallery .col-2 {
-    width: 20%;
+.swip {
+    padding-top: 32rem;
 }
 /* End Gallery  */
 /* Start Clients  */
