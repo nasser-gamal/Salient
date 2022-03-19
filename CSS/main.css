@@ -101,10 +101,11 @@ nav ul li a {
 /* End Header  */
 /* Start Landing  */
 .landing {
-    background-image: url(../images/landing.jpg);
-    background-size: cover;
     height: calc(100vh - 65px);
     margin-top: 65px;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-attachment: fixed;
 }
 .landing::before {
     content: "";
