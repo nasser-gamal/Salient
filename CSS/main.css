@@ -17,9 +17,6 @@ html {
 .special-content {
     width: 650px;
     max-width: 100%;
-    transform: translateY(100px);
-    opacity: 0;
-    transition: var(--js-transition);
 }
 .special-content  h3 {
     letter-spacing: 2px;
@@ -37,7 +34,7 @@ html {
 .special-content P {
     font-size: 1.1rem;
 }
-.left {
+/* .left {
     transform: translateX(-100px);
     opacity: 0;
     transition: var(--js-transition);
@@ -51,18 +48,9 @@ html {
     transform: translateX(100px);
     opacity: 0;
     transition: var(--js-transition);
-}
+} */
 /* End Components  */
 /* Start Header  */
-.bage {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: red;
-    z-index: 100000;
-}
 .scroll-top {
     position: fixed;
     right: 30px;
@@ -145,17 +133,10 @@ nav ul li a {
 .information h3 {
     font-weight: 300;
 }
-.information .row {
-    transform: translateY(100px);
-    opacity: 0;
-    transition: var(--js-transition);
-}
+
 .information .text {
     width: 600px;
     max-width: 100%;
-    transform: translateY(100px);
-    transition: var(--js-transition);
-    opacity: 0;
 }
 .information h3::before {
     content:  ""; 
@@ -314,6 +295,7 @@ nav ul li a {
     margin-top: 5rem;
     background-image: url(../images/temp/stats-bg.jpg);
     background-size: cover;
+    overflow: hidden;
 }
 .services::before {
     content: "";
