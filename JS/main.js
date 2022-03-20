@@ -1,6 +1,6 @@
 // landing
 let text = document.querySelectorAll(".landing .text");
-let count = 0;
+let count = 1;
 
 setInterval(() => {
   removeTextClasses();
@@ -68,3 +68,17 @@ var swiper = new Swiper(".swip", {
     },
   },
 });
+
+// let swipContent = document.querySelector(".swip-slide .content");
+// let ma = 0;
+// up()
+// function up() {
+//   setInterval(() => {
+//     swipContent.style.top = ma + "px"
+//     ma -= 215;
+//     if (ma = -645) {
+//         ma = 0;
+//     }
+//   },3000)
+// };
+

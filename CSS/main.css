@@ -34,21 +34,6 @@ html {
 .special-content P {
     font-size: 1.1rem;
 }
-/* .left {
-    transform: translateX(-100px);
-    opacity: 0;
-    transition: var(--js-transition);
-}
-.center {
-    transform: translateY(100px);
-    opacity: 0;
-    transition: var(--js-transition);
-}
-.right {
-    transform: translateX(100px);
-    opacity: 0;
-    transition: var(--js-transition);
-} */
 /* End Components  */
 /* Start Header  */
 .scroll-top {
@@ -469,14 +454,46 @@ nav ul li a {
     padding-top: var(--padding);
     padding-bottom: var(--padding);
 }
-.details .srv {
-    width: 400px;
+.details .swip-slide {
+    width: 600px;
+    height: 200px;
     max-width: 100%;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.swip-slide .srv {
+    transition: 0.5s;
+    padding: 0 0 15px 0;
+}
+.swip-slide .content {
+    position: relative;
+    transition: 1s;
+}
+.details .srv p {
+    line-height: 1.8;
 }
 .details .srv img {
     border-radius: 50%;
 }
+.details .srv span {
+    font-size: 0.9rem;
+    color: red;
+}
+/* .details .srv:nth-child(2) {
+    transform: translateY(120%);
+}   
+.details .srv:last-child {
+    transform: translateY(120%);
+}    */
+
 /* End Details  */
+/* Start Map  */
+.map {
+    padding-top: 2rem;
+}
+/* End Map  */
 /* Start Contact  */
 .contact {
     padding-top: var(--padding);
