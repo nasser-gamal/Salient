@@ -464,6 +464,19 @@ nav ul li a {
     border-radius: 1px;
 }
 /* End Subscribe  */
+/* Start Details  */
+.details {
+    padding-top: var(--padding);
+    padding-bottom: var(--padding);
+}
+.details .srv {
+    width: 400px;
+    max-width: 100%;
+}
+.details .srv img {
+    border-radius: 50%;
+}
+/* End Details  */
 /* Start Contact  */
 .contact {
     padding-top: var(--padding);
