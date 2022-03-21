@@ -385,13 +385,40 @@ nav ul li a {
     padding-top: var(--padding);
     padding-bottom: var(--padding);
 }
+.details .content {
+    height: 250px;
+}
 .details .swip-slide {
     width: 600px;
-    height: 200px;
     max-width: 100%;
 }
 .swip-slide .srv {
-    transition: 0.5s;
+    position: relative;
+    height: 250px;
+    animation: up 6s 5s linear infinite;
+}
+@keyframes up {
+    0% {
+        top: 0;
+    }
+    20% {
+        top: -250px;
+    }
+    35% {
+        top: -250px;
+    }
+    55% {
+        top: -450px;
+    }
+    75% {
+        top: -450px;
+    }
+    85% {
+        top: 0;
+    }
+    100% {
+        top: 0;
+    }
 }
 .swip-slide .content {
     transition: 1s;
