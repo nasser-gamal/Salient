@@ -35,11 +35,16 @@ window.addEventListener(("load"), () => {
 })
 
 window.addEventListener("scroll", () => {
-  if (scrollY >= skills.offsetTop - 650) {
+  if (scrollY >= skills.offsetTop - 500) {
     progress.forEach((prog) => {
       prog.style.width = prog.dataset.width;
     });
   };
+  if (scrollY >= 1000) {
+    document.querySelector(".scroll-top").style.display = "block"
+  } else {
+    document.querySelector(".scroll-top").style.display = "none"
+  }
 });
 
 var swiper = new Swiper(".swip", {
